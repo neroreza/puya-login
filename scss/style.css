@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  background-color: #cae1f4;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  text-align: center;
+}
+
+.container .information a {
+  color: #c50000;
+  font-weight: 550;
+  font-size: 14px;
+}
+
+.container .container__body .ac-logo {
+  background-color: #29948c;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.container .container__body .ac-logo::after {
+  content: " ";
+  width: 18px;
+  height: 18px;
+  display: block;
+  background-color: #29948c;
+  top: calc(100% - 9px);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  left: calc(50% - 9px);
+  position: absolute;
+}
+
+.container .container__body .ac-logo .ac-logo__box {
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #e2ebea;
+  width: 180px;
+  height: 180px;
+  margin: 2px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .container__body .ac-logo .ac-logo__box img {
+  width: 100px;
+  height: 170px;
+}
+
+.container .container__body .portal {
+  padding: 20px 0;
+  background-color: #f6f4f5;
+}
+
+.container .container__body .portal a {
+  text-decoration: none;
+  color: #29948a;
+  font-weight: 700;
+}
+
+.container .container__body .main {
+  background-color: #0c486c;
+  direction: ltr;
+}
+
+.container .container__body .main .form {
+  padding-top: 25px;
+}
+
+.container .container__body .main .form > div {
+  margin: 10px 0;
+  position: relative;
+}
+
+.container .container__body .main .form > div .keyboard-ic {
+  text-decoration: none;
+  color: #B7C8D2;
+}
+
+.container .container__body .main .form input {
+  border: none;
+  height: 40px;
+  width: 400px;
+  border-radius: 0px 5px 5px 0px;
+  direction: rtl;
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.container .container__body .main label {
+  background-color: white;
+  border: none;
+  padding-top: 10px;
+  height: 40px;
+  border-radius: 5px 0px 0px 5px;
+  display: inline-block;
+  top: 0;
+  left: 25px;
+  position: absolute;
+}
+
+.container .container__body .main label .user__box {
+  border-radius: 50%;
+  background-color: #2a5f7f;
+  padding: 5px 0;
+  margin: 5px;
+}
+
+.container .container__body .main label .user-ic {
+  color: #bbc8d1;
+  padding: 0px 4px 0 8px;
+}
+
+.container .container__body .main .img-code {
+  width: 150px;
+  height: 35px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.container .container__body .main .txt1 {
+  direction: rtl;
+  color: #e0e0e0;
+  font-size: 14px;
+  padding: 2px 0;
+}
+
+.container .container__body .main .txt2 {
+  direction: rtl;
+  color: #F0FF00;
+  font-size: 14px;
+}
+
+.container .container__body .main .login {
+  background-color: #06344E;
+  padding: 15px 0;
+  margin: 20px 0;
+}
+
+.container .container__body .main .login a {
+  text-decoration: none;
+  color: white;
+}
+
+.container .container__body .main .forget-link {
+  text-align: left;
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.container .container__body .main .forget-link a {
+  color: white;
+  text-decoration: none;
+}
+
+.container .container__body .main .download {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
